@@ -31,7 +31,7 @@ import z from "zod";
 import { customErrorMap } from "@/lib/customErrorMap";
 import { Session } from "next-auth";
 import { useSignOut } from "@/app/(auth)/sign-in/_services/use-sign-in-mutations";
-import { Role } from "$/generated/prisma";
+import { Role } from "../../../../generated/prisma";
 
 z.setErrorMap(customErrorMap);
 

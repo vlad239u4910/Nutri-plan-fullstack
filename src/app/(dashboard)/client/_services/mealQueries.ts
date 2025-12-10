@@ -1,6 +1,6 @@
 "use server";
 
-import { Prisma } from "$/generated/prisma";
+import { Prisma } from "../../../../../generated/prisma";
 import {
   mealFiltersSchema,
   MealFiltersSchema,

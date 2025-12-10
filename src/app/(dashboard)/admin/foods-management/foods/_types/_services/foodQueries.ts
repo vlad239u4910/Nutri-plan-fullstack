@@ -1,6 +1,6 @@
 "use server";
 
-import { Prisma } from "$/generated/prisma";
+import { Prisma } from "../../../../../../../../generated/prisma";
 import { PaginatedResult } from "@/lib/types/paginatedResult";
 import { foodFiltersSchema, FoodFiltersSchema } from "../foodFilterSchema";
 import db from "@/lib/db";

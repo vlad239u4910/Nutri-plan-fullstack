@@ -1,6 +1,6 @@
 import { ZodError } from "zod";
 import { AuthError } from "next-auth";
-import { Prisma } from "$/generated/prisma";
+import { Prisma } from "../../generated/prisma";
 import { fromError } from "zod-validation-error";
 
 const PRISMA_ERROR_CODES = new Map<string, string>([
