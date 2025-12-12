@@ -32,7 +32,7 @@ const MealCards = () => {
 
   const deleteMealMutation = useDeleteMeal();
 
-  //   console.log("MEALS =", mealsQuery.data);
+  // console.log("MEALS =", mealsQuery.data);
 
   const calculateTotalCalories = (mealFood: any[] = []) => {
     return (mealFood || []).reduce((total, item) => {

@@ -29,7 +29,7 @@ const ControlledDatePicker = <T extends FieldValues>({
         field: { value, onChange, ...restField },
         fieldState: { error },
       }) => (
-        <Popover modal>
+        <Popover>
           {!!label && (
             <Label className="mb-2" htmlFor={name}>
               {label}
